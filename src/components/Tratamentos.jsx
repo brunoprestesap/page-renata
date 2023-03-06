@@ -5,6 +5,9 @@ import protese from '../assets/protese.jpg'
 import faceta from '../assets/faceta.jpg'
 import clinica from '../assets/clinica.webp'
 import restauracao from '../assets/restauracao.webp'
+import bucomaxilo from '../assets/bucomaxilofacial.jpeg'
+import laserterapia from '../assets/laserterapia.jpg'
+import odonto from '../assets/odontopediatria.jpg'
 
 const Tratamentos = () => {
   return (
@@ -65,6 +68,27 @@ const Tratamentos = () => {
                 alt='restauração'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
                 <h2 className='text-center my-3 text-xl text-[#AA8068]'>Restauração</h2>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <img
+                src={bucomaxilo}
+                alt='Bucomaxilofacial'
+                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Bucomaxilofacial</h2>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <img
+                src={laserterapia}
+                alt='Laserterapia'
+                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Laserterapia</h2>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <img
+                src={odonto}
+                alt='Odontopediatria'
+                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Odontopediatria</h2>
             </div>
         </div>
     </div>
