@@ -16,7 +16,7 @@ const Hero = () => {
           <CardExperience />
         </div> */}
 
-        <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-10 md:left-7 max-w-prose">
+        <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-5 md:left-7 max-w-prose">
           <div className="backdrop-opacity-10 rounded-2xl bg-[#EED3C6]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
             <h1 className="text-3xl uppercase lg:text-6xl text-[#F4F3F4]">Dra.</h1>
             <h1 className="text-5xl uppercase lg:text-6xl font-bold text-[#F4F3F4]">
