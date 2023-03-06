@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <div id="hero">
       <img
+        id='inverter'
         className="w-full h-screen object-cover"
         src={hero}
         alt="hero top"
@@ -15,10 +16,10 @@ const Hero = () => {
           <CardExperience />
         </div> */}
 
-        <div id="sobre" className="flex absolute bottom-3 md:bottom-24 left-0 md:left-7 m-5 md:m-0">
+        <div id="sobre" className="flex absolute bottom-3 md:bottom-24 left-10 md:left-7 max-w-prose">
           <div className="backdrop-opacity-10 rounded-2xl bg-[#EED3C6]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
-            <h1 className="text-6xl uppercase lg:text-6xl">Dra.</h1>
-            <h1 className="text-6xl uppercase lg:text-6xl font-bold">
+            <h1 className="text-3xl uppercase lg:text-6xl">Dra.</h1>
+            <h1 className="text-5xl uppercase lg:text-6xl font-bold">
               Renata
               <br />
               Pamplona
