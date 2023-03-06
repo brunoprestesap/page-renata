@@ -43,7 +43,7 @@ const Hero = () => {
                 rel="noreferrer"
               >
                 <button className="bg-[#F7F7F7] rounded-xl w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl">
-                  <h2 className="text-slate-800 uppercase font-bold">
+                  <h2 className="text-[#AA8068] uppercase font-bold">
                     Agende sua consulta
                   </h2>
                 </button>
