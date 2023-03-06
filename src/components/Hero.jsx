@@ -15,7 +15,7 @@ const Hero = () => {
         {/* <div className="invisible md:visible absolute top-0 right-0 max-w-[700px] w-52 lg:w-72 m-auto h-full">
           <CardExperience />
         </div> */}
-        <div className='absolute top-0 right-0 pt-5 pl-5 border-b-2 border-[#AA8068]'>
+        <div className='absolute top-0 right-0 pt-5 pr-5 border-b-4 border-[#AA8068]'>
             <h1 className='text-2xl text-[#AA8068] font-bold'>Dra. Renata Pamplona</h1>
         </div>
 
