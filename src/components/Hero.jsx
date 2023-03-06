@@ -18,18 +18,27 @@ const Hero = () => {
 
         <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-10 md:left-7 max-w-prose">
           <div className="backdrop-opacity-10 rounded-2xl bg-[#EED3C6]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
-            <h1 className="text-3xl uppercase lg:text-6xl">Dra.</h1>
-            <h1 className="text-5xl uppercase lg:text-6xl font-bold">
+            <h1 className="text-3xl uppercase lg:text-6xl text-[#F4F3F4]">Dra.</h1>
+            <h1 className="text-5xl uppercase lg:text-6xl font-bold text-[#F4F3F4]">
               Renata
               <br />
               Pamplona
             </h1>
 
-            <hr className="w-full lg:w-full border mt-3 border-[#7C5A12]" />
+            <hr className="w-full lg:w-full border mt-3 border-white/50" />
 
             <div className="my-5">
-              <h2 className="text-2xl md:text-4xl font-medium">
+              <h2 className="text-xl md:text-2xl font-medium">
                 Cirurgiã-Dentista
+              </h2>
+              <h2 className="text-xl md:text-2xl font-medium">
+                Odontolegista
+              </h2>
+              <h2 className="text-xl md:text-2xl font-medium">
+                Cirurgiã BucoMaxiloFacial
+              </h2>
+              <h2 className="text-xl md:text-2xl font-medium">
+                HABILITAÇÃO em Laserterapia
               </h2>
               <h2 className="text-lg md:text-xl">
                 Atendimento 24 horas
