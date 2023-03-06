@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="my-5">
               
               <h2 className="text-lg md:text-xl text-[#AA8068]">
-                Cuide da sua saúde bucal e melhore sua qualidade de vida - agende uma consulta hoje mesmo"
+                Cuide da sua saúde bucal e melhore sua qualidade de vida - agende uma consulta hoje mesmo
               </h2>
             </div>
 
