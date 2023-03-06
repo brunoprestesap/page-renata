@@ -19,7 +19,7 @@ const Hero = () => {
             <h1 className='text-2xl text-white font-bold'>DRA. RENATA PAMPLONA</h1>
         </div> */}
 
-        <div className='absolute top-0 left-0 w-full flex justify-center lg:justify-start items-center pt-16 pl-20'>
+        <div className='absolute top-0 left-0 w-full flex justify-center lg:justify-start items-center pt-16 lg:pl-20'>
             <h1 className='text-6xl text-left text-[#AA8068] font-bold'>DRA.<br /> RENATA<br /> PAMPLONA</h1>
         </div>
 
