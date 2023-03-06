@@ -15,8 +15,12 @@ const Hero = () => {
         {/* <div className="invisible md:visible absolute top-0 right-0 max-w-[700px] w-52 lg:w-72 m-auto h-full">
           <CardExperience />
         </div> */}
-        <div className='absolute -top-1 -left-1 p-6 bg-[#AA8068] rounded-lg'>
+        {/* <div className='absolute -top-1 -left-1 p-6 bg-[#AA8068] rounded-lg'>
             <h1 className='text-2xl text-white font-bold'>DRA. RENATA PAMPLONA</h1>
+        </div> */}
+
+        <div className='absolute top-0 left-0 w-full flex justify-center items-center pt-16'>
+            <h1 className='text-6xl text-left text-[#AA8068] font-bold'>DRA.<br /> RENATA<br /> PAMPLONA</h1>
         </div>
 
         <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-5 md:left-16 max-w-[350px] md:max-w-prose">
