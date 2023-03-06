@@ -16,7 +16,7 @@ const Hero = () => {
           <CardExperience />
         </div> */}
 
-        <div id="sobre" className="flex absolute bottom-3 md:bottom-24 left-10 md:left-7 max-w-prose">
+        <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-10 md:left-7 max-w-prose">
           <div className="backdrop-opacity-10 rounded-2xl bg-[#EED3C6]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
             <h1 className="text-3xl uppercase lg:text-6xl">Dra.</h1>
             <h1 className="text-5xl uppercase lg:text-6xl font-bold">
@@ -25,9 +25,9 @@ const Hero = () => {
               Pamplona
             </h1>
 
-            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#7C5A12]" />
+            <hr className="w-full lg:w-full border mt-3 border-[#7C5A12]" />
 
-            <div className="my-10">
+            <div className="my-5">
               <h2 className="text-2xl md:text-4xl font-medium">
                 Cirurgiã-Dentista
               </h2>
@@ -36,14 +36,14 @@ const Hero = () => {
               </h2>
             </div>
 
-            <div className="w-full flex justify-center">
+            <div className="w-full">
               <a
                 href="https://wa.me/5596991551081"
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-[#003E53] rounded-lg w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl">
-                  <h2 className="text-white uppercase font-bold">
+                <button className="bg-[#F7F7F7] rounded-xl w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl">
+                  <h2 className="text-slate-800 uppercase font-bold">
                     Agende sua consulta
                   </h2>
                 </button>
