@@ -14,13 +14,13 @@ const Tratamentos = () => {
     <div>
         <div className='p-5'>
 
-            <h2 className='text-4xl text-center font-bold text-[#AA8068]'>
+            <h2 className='text-4xl text-center font-bold text-[#7D513A]'>
                 Tratamentos
             </h2>
-            <h2 className='text-2xl font-bold text-center text-[#AA8068]/80 my-2'>
+            <h2 className='text-2xl font-bold text-center text-[#7D513A]/80 my-2'>
                 Tudo o que você precisa num só lugar
             </h2>
-            <h2 className='text-sm text-center text-[#AA8068]'>
+            <h2 className='text-sm text-center text-[#7D513A]'>
                 Não deixe o medo do dentista impedir você de cuidar da sua saúde bucal - oferecemos tratamentos sem dor
             </h2>
 
@@ -32,56 +32,56 @@ const Tratamentos = () => {
                 src={implante}
                 alt='implante dentário'
                 className='object-cover w-full h-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Implante dentário</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Implante dentário</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={ortodontia}
                 alt='ortodontia'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Ortodontia</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Ortodontia</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={protese}
                 alt='prótese dental'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Prótese Dental</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Prótese Dental</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={faceta}
                 alt='lentes e facetas'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Lentes e facetas</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Lentes e facetas</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={clinica}
                 alt='clinica geral'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Clínica Geral</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Clínica Geral</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={restauracao}
                 alt='restauração'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Restauração</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Restauração</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={bucomaxilo}
                 alt='Bucomaxilofacial'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Bucomaxilofacial</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Bucomaxilofacial</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={laserterapia}
                 alt='Laserterapia'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Laserterapia</h2>
+                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Laserterapia</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
