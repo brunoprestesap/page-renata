@@ -19,8 +19,8 @@ const Hero = () => {
             <h1 className='text-2xl text-white font-bold'>DRA. RENATA PAMPLONA</h1>
         </div> */}
 
-        <div className='absolute top-0 left-0 w-full flex justify-center lg:justify-start items-center pt-16 lg:pl-20'>
-            <h1 className='text-6xl text-left text-[#7D513A] font-bold'>DRA.<br /> RENATA<br /> PAMPLONA</h1>
+        <div className='absolute top-0 left-0 w-full flex lg:justify-start  pt-16 pl-5 lg:pl-20'>
+            <h1 className='text-5xl text-left font-bold'>DRA.<br /> RENATA<br /> PAMPLONA</h1>
         </div>
 
         <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-5 md:left-16 max-w-[350px] md:max-w-prose">
