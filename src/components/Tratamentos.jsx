@@ -28,7 +28,7 @@ const Tratamentos = () => {
       </div>
 
       <div className="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div className="p-5 w-full">
+        <div className="w-full">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
