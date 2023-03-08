@@ -18,21 +18,21 @@ const Tratamentos = () => {
                 Tratamentos
             </h2>
             <h2 className='text-2xl font-bold text-center text-[#7D513A]/80 my-2'>
-                Tudo o que você precisa num só lugar
+                Tudo o que você precisa, num só lugar!
             </h2>
             <h2 className='text-sm text-center text-[#7D513A]'>
-                Não deixe o medo do dentista impedir você de cuidar da sua saúde bucal - oferecemos tratamentos sem dor
+                Não deixe que o medo do dentista impeça você de cuidar da sua saúde bucal - Oferecemos tratamentos sem dor
             </h2>
 
         </div>
 
         <div className='p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
-            <div className='flex flex-col items-center justify-center'>
+            <div className='flex flex-col items-center justify-center bg-[#F3DDD2] rounded-xl p-5'>
                 <img
                 src={implante}
                 alt='implante dentário'
-                className='object-cover w-full h-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Implante dentário</h2>
+                className='object-cover w-5/6 rounded-xl hover:translate-y-2 duration-500 shadow-lg shadow-slate-800/50' />
+                <h2 className='text-center text-xl mt-5 text-[#7D513A]'>Implante dentário</h2>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
@@ -89,6 +89,27 @@ const Tratamentos = () => {
                 alt='Odontopediatria'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
                 <h2 className='text-center my-3 text-xl text-[#AA8068]'>Odontopediatria</h2>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <img
+                src={odonto}
+                alt='PNE'
+                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Pacientes com Necessidades Especiais</h2>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <img
+                src={odonto}
+                alt='Geriatria'
+                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Geriatria</h2>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <img
+                src={odonto}
+                alt='HOF'
+                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Harmonização Orofacial</h2>
             </div>
         </div>
     </div>
