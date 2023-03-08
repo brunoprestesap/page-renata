@@ -76,7 +76,7 @@ const Tratamentos = () => {
           </div>
         </div>
 
-        <div className="p-5 w-full">
+        <div className="w-full">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
