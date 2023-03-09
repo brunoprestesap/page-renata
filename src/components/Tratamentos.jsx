@@ -224,22 +224,100 @@ const Tratamentos = () => {
           </div>
         </div>
 
+        <div className="w-full">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
+            <img
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
+              src={clinica}
+              alt="Clínica Geral"
+            />
+
+            <div className="p-5">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
+                Clínica Geral
+              </h2>
+              <p className="leading-relaxed">
+                Tenha um sorriso saudável e radiante! Agende já sua consulta para cuidar da sua saúde bucal.
+                Oferecemos tratamentos personalizados e equipe especializada.
+              </p>
+              <div className="py-2">
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Limpeza dental</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Obturações</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Extrações dentárias</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Tratamento de canal</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Tratamento periodontal</p>
+                </div>
+              </div>
+            </div>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
+            <img
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
+              src={restauracao}
+              alt="Restauração"
+            />
+
+            <div className="p-5">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
+                Restauração
+              </h2>
+              <p className="leading-relaxed">
+                Recupere seu sorriso com nossos serviços de restauração! Dentes quebrados ou com cáries? Nós temos a solução perfeita para você!
+              </p>
+              <div className="py-2">
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Restaurações com resina composta</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Coroas dentárias</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Implantes dentários</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Facetas de porcelana</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Onlays e inlays</p>
+                </div>
+              </div>
+            </div>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
         {/* 
-            
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={clinica}
-                alt='clinica geral'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Clínica Geral</h2>
-            </div>
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={restauracao}
-                alt='restauração'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Restauração</h2>
-            </div>
             <div className='flex flex-col items-center justify-center'>
                 <img
                 src={bucomaxilo}
