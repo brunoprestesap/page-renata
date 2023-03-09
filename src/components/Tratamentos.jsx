@@ -29,7 +29,7 @@ const Tratamentos = () => {
 
       <div className="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="w-full">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src={implante}
@@ -77,7 +77,7 @@ const Tratamentos = () => {
         </div>
 
         <div className="w-full">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src={ortodontia}
@@ -125,7 +125,7 @@ const Tratamentos = () => {
         </div>
 
         <div className="w-full">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src={protese}
