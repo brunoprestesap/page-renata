@@ -124,14 +124,60 @@ const Tratamentos = () => {
           </div>
         </div>
 
-        {/* <div className='flex flex-col items-center justify-center bg-[#F3DDD2] rounded-xl p-5 shadow-lg shadow-slate-800/50'>
-                <img
-                src={ortodontia}
-                alt='ortodontia'
-                className='object-cover w-5/6 rounded-xl hover:translate-y-2 duration-500 shadow-lg shadow-slate-800/50' />
-                <h2 className='text-center text-xl mt-5 text-[#7D513A] font-bold'>Ortodontia</h2>
+        <div className="w-full">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
+            <img
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
+              src={protese}
+              alt="protese dental"
+            />
+
+            <div className="p-5">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
+                Prótese Dental
+              </h2>
+              <p className="leading-relaxed">
+                Sorrisos são a expressão da nossa alegria e felicidade. 
+                E quando um dente falha, pode ser difícil sorrir com confiança. 
+                Mas a prótese dentária pode devolver a você o sorriso que tanto deseja.
+                Agende uma consulta agora mesmo para avaliação.
+              </p>
+              <div className="py-2">
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p>Próteses fixas</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p>Próteses removíveis</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p>Overdentures</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p>Coroas</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p>Pontes fixas</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p>Implantes dentários</p>
+                </div>
+              </div>
             </div>
-            <div className='flex flex-col items-center justify-center'>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className='flex flex-col items-center justify-center'>
                 <img
                 src={protese}
                 alt='prótese dental'
