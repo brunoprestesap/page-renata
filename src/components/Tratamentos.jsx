@@ -37,10 +37,10 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-base font-medium text-slate-900 mb-1">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
                 Implante dentário
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-base">
                 Não perca mais tempo sofrendo com problemas dentários. Agende
                 agora mesmo uma consulta para avaliação e descubra como o
                 implante dentário pode mudar a sua vida para melhor.
@@ -48,23 +48,23 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Implante dentário unitário/multiplo</p>
+                  <p className="text-sm my-1">Implante dentário unitário/multiplo</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Prótese dentária sobre implante</p>
+                  <p className="text-sm my-1">Prótese dentária sobre implante</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Exerto ósseo</p>
+                  <p className="text-sm my-1">Exerto ósseo</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Cirurgia de levantamento de seio maxilar</p>
+                  <p className="text-sm my-1">Cirurgia de levantamento de seio maxilar</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Tratamento de gengivite e periodontite</p>
+                  <p className="text-sm my-1">Tratamento de gengivite e periodontite</p>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-base font-medium text-slate-900 mb-1">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
                 Ortodontia
               </h2>
               <p className="leading-relaxed">
@@ -96,23 +96,23 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Aparelhos ortodônticos fixos</p>
+                  <p className="text-sm my-1">Aparelhos ortodônticos fixos</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Aparelhos ortodônticos móveis</p>
+                  <p className="text-sm my-1">Aparelhos ortodônticos móveis</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Alinhadores transparentes</p>
+                  <p className="text-sm my-1">Alinhadores transparentes</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Aparelhos ortopédicos</p>
+                  <p className="text-sm my-1">Aparelhos ortopédicos</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Tratamentos acelerados</p>
+                  <p className="text-sm my-1">Tratamentos acelerados</p>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-base font-medium text-slate-900 mb-1">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
                 Prótese Dental
               </h2>
               <p className="leading-relaxed">
@@ -145,27 +145,27 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Próteses fixas</p>
+                  <p className="text-sm my-1">Próteses fixas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Próteses removíveis</p>
+                  <p className="text-sm my-1">Próteses removíveis</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Overdentures</p>
+                  <p className="text-sm my-1">Overdentures</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Coroas</p>
+                  <p className="text-sm my-1">Coroas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Pontes fixas</p>
+                  <p className="text-sm my-1">Pontes fixas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p>Implantes dentários</p>
+                  <p className="text-sm my-1">Implantes dentários</p>
                 </div>
               </div>
             </div>
