@@ -9,7 +9,7 @@ import bucomaxilo from "../assets/bucomaxilofacial.jpeg";
 import laserterapia from "../assets/laserterapia.jpg";
 import odonto from "../assets/odontopediatria.jpg";
 
-import { FaCheck } from 'react-icons/fa'
+import { FaCheck } from "react-icons/fa";
 
 const Tratamentos = () => {
   return (
@@ -29,14 +29,14 @@ const Tratamentos = () => {
 
       <div className="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="w-full">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src={implante}
               alt="implante"
             />
 
-            <div className="p-6 hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
+            <div className="p-5">
               <h2 className="text-base font-medium text-slate-900 mb-1">
                 Implante dentário
               </h2>
@@ -47,78 +47,79 @@ const Tratamentos = () => {
               </p>
               <div className="py-2">
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Implante dentário unitário/multiplo</p>
+                  <FaCheck />
+                  <p>Implante dentário unitário/multiplo</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Prótese dentária sobre implante</p>
+                  <FaCheck />
+                  <p>Prótese dentária sobre implante</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Exerto ósseo</p>
+                  <FaCheck />
+                  <p>Exerto ósseo</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Cirurgia de levantamento de seio maxilar</p>
+                  <FaCheck />
+                  <p>Cirurgia de levantamento de seio maxilar</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Tratamento de gengivite e periodontite</p>
+                  <FaCheck />
+                  <p>Tratamento de gengivite e periodontite</p>
                 </div>
               </div>
-              <div>
-                <button className="border-2 border-white bg-green-600 p-3 rounded-lg">
-                  <p className="text-white">Agende sua consulta</p>
-                </button>
-              </div>
+            </div>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
             </div>
           </div>
         </div>
 
         <div className="w-full">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
             <img
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src={ortodontia}
               alt="ortodontia"
             />
 
-            <div className="p-6 hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in">
+            <div className="p-5">
               <h2 className="text-base font-medium text-slate-900 mb-1">
                 Ortodontia
               </h2>
               <p className="leading-relaxed">
-                Não deixe que dentes tortos ou problemas de mordida afetem a sua confiança. 
-                Agende agora mesmo uma consulta para avaliação ortodôntica!
+                Não deixe que dentes tortos ou problemas de mordida afetem a sua
+                confiança. Agende agora mesmo uma consulta para avaliação
+                ortodôntica!
               </p>
               <div className="py-2">
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Aparelhos ortodônticos fixos</p>
+                  <FaCheck />
+                  <p>Aparelhos ortodônticos fixos</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Aparelhos ortodônticos móveis</p>
+                  <FaCheck />
+                  <p>Aparelhos ortodônticos móveis</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Alinhadores transparentes</p>
+                  <FaCheck />
+                  <p>Alinhadores transparentes</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Aparelhos ortopédicos</p>
+                  <FaCheck />
+                  <p>Aparelhos ortopédicos</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FaCheck />
-                    <p>Tratamentos acelerados</p>
+                  <FaCheck />
+                  <p>Tratamentos acelerados</p>
                 </div>
               </div>
-              <div>
-                <button className="border-2 border-white bg-green-600 p-3 rounded-lg">
-                  <p className="text-white">Agende sua consulta</p>
-                </button>
-              </div>
+            </div>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
             </div>
           </div>
         </div>
