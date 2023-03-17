@@ -1,13 +1,14 @@
 import React from "react";
 import implante from "../assets/implante.jpg";
-import ortodontia from "../assets/ortodontia.jpg";
+import ortodontia from "../assets/ortodontia.jpeg";
 import protese from "../assets/protese.jpg";
 import faceta from "../assets/faceta.jpg";
 import clinica from "../assets/clinica.webp";
 import restauracao from "../assets/restauracao.webp";
 import bucomaxilo from "../assets/bucomaxilofacial.jpeg";
-import laserterapia from "../assets/laserterapia.jpg";
+import laserterapia from "../assets/laserterapia.png";
 import odonto from "../assets/odontopediatria.jpg";
+import harmonizacao from "../assets/harmonizacao.jpg"
 
 import { FaCheck } from "react-icons/fa";
 
@@ -439,41 +440,161 @@ const Tratamentos = () => {
           </div>
         </div>
 
-        {/* 
-            
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={laserterapia}
-                alt='Laserterapia'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#7D513A]'>Laserterapia</h2>
+        <div className="w-full">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
+            <img
+              src={odonto}
+              alt="Odontopediatria"
+              className="object-cover w-full rounded-lg hover:translate-y-2 duration-500"
+            />
+
+            <div className="p-5">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
+                Odontopediatria
+              </h2>
+              <p className="leading-relaxed">
+                Garanta um sorriso saudável para o seu filho! Oferecemos
+                serviços de odontopediatria com profissionais capacitados e
+                atendimento personalizado. Marque já a consulta
+              </p>
+              <div className="py-2">
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Aplicação de flúor</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Tratamento de cárie dentária</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Aplicação de selante dentário</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Acompanhamento do desenvolvimento da dentição
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Orientação e prevenção em relação à higiene bucal
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Extração de dentes de leite</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Acompanhamento ortodôntico precoce
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Tratamento de traumatismos dentários
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Restaurações dentárias</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Remoção de tártaro e limpeza dentária.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={odonto}
-                alt='Odontopediatria'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Odontopediatria</h2>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
             </div>
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={odonto}
-                alt='PNE'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Pacientes com Necessidades Especiais</h2>
-            </div>
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={odonto}
-                alt='Geriatria'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Geriatria</h2>
-            </div>
-            <div className='flex flex-col items-center justify-center'>
-                <img
-                src={odonto}
+          </div>
+        </div>
+
+        <div className="w-full">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
+          <img
+                src={harmonizacao}
                 alt='HOF'
                 className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+
+            <div className="p-5">
+              <h2 className="text-xl font-medium text-slate-900 mb-1">
+                HOF - Harmonização Orofacial
+              </h2>
+              <p className="leading-relaxed">
+                Realce a beleza do seu sorriso com a Harmonização Orofacial! 
+                Oferecemos procedimentos estéticos faciais personalizados, com resultados naturais e seguros. 
+                Agende sua consulta e sinta-se ainda mais bonito!
+              </p>
+              <div className="py-2">
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Preenchimento labial
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Toxina botulínica (Botox)</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Preenchimento facial com ácido hialurônico</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                    Rinomodelação (procedimento estético para correção do formato do nariz)
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                  Bichectomia (procedimento para remoção da gordura das bochechas)
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">Lifting facial não cirúrgico</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                  Fios de sustentação facial (thread lift)
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-sm my-1">
+                  Preenchimento de olheiras
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+            <div className="px-5 pb-5">
+              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                <p className="text-white">Agende sua consulta</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* 
+            
+            
+           
+            
+           <div className='flex flex-col items-center justify-center'>
+                
                 <h2 className='text-center my-3 text-xl text-[#AA8068]'>Harmonização Orofacial</h2>
             </div> */}
       </div>
