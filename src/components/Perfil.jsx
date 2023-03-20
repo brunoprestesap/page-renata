@@ -3,15 +3,15 @@ import perfil from '../assets/perfil_.jpeg'
 
 const Perfil = () => {
   return (
-    <div className='p-5 flex flex-col justify-center items-center'>
-        <div>
+    <div className='px-5 py-10 md:w-full flex flex-col md:flex-row justify-center items-center'>
+        <div className='mx-5'>
             <img
             className='object-cover w-72 h-72 rounded-full'
             src={perfil}
             alt='foto de perfil'
-            ></img>
+            />
         </div>
-        <div className='my-5'>
+        <div className='my-5 md:w-2/6'>
             <h2 className='text-2xl text-centerS'>Prazer, Drª. <span className='font-bold text-rose-800'>Renata Pamplona</span></h2>
             <p className='text-sm leading-6 text-justify'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
