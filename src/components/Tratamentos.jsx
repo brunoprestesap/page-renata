@@ -8,7 +8,7 @@ import restauracao from "../assets/restauracao.webp";
 import bucomaxilo from "../assets/bucomaxilofacial.jpeg";
 import laserterapia from "../assets/laserterapia.png";
 import odonto from "../assets/odontopediatria.jpg";
-import harmonizacao from "../assets/harmonizacao.jpg"
+import harmonizacao from "../assets/harmonizacao.jpg";
 
 import { FaCheck } from "react-icons/fa";
 
@@ -88,10 +88,10 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Ortodontia
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Não deixe que dentes tortos ou problemas de mordida afetem a sua
                 confiança. Agende agora mesmo uma consulta para avaliação
                 ortodôntica!
@@ -99,23 +99,23 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Aparelhos ortodônticos fixos</p>
+                  <p className="text-xs my-1">Aparelhos ortodônticos fixos</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Aparelhos ortodônticos móveis</p>
+                  <p className="text-xs my-1">Aparelhos ortodônticos móveis</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Alinhadores transparentes</p>
+                  <p className="text-xs my-1">Alinhadores transparentes</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Aparelhos ortopédicos</p>
+                  <p className="text-xs my-1">Aparelhos ortopédicos</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Tratamentos acelerados</p>
+                  <p className="text-xs my-1">Tratamentos acelerados</p>
                 </div>
               </div>
             </div>
@@ -136,10 +136,10 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Prótese Dental
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Sorrisos são a expressão da nossa alegria e felicidade. E quando
                 um dente falha, pode ser difícil sorrir com confiança. Mas a
                 prótese dentária pode devolver à você o sorriso que tanto
@@ -148,19 +148,19 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Próteses fixas</p>
+                  <p className="text-xs my-1">Próteses fixas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Próteses removíveis</p>
+                  <p className="text-xs my-1">Próteses removíveis</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Coroas</p>
+                  <p className="text-xs my-1">Coroas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Pontes fixas</p>
+                  <p className="text-xs my-1">Pontes fixas</p>
                 </div>
               </div>
             </div>
@@ -180,10 +180,10 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Lentes e Facetas (Estética)
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Transforme seu sorriso em minutos! Tenha dentes perfeitos com
                 nossas lentes e facetas de alta qualidade. Agende sua consulta
                 agora mesmo!
@@ -191,19 +191,19 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Lentes de contato dental</p>
+                  <p className="text-xs my-1">Lentes de contato dental</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Facetas dentárias</p>
+                  <p className="text-xs my-1">Facetas dentárias</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Clareamento dental</p>
+                  <p className="text-xs my-1">Clareamento dental</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Restaurações estéticas</p>
+                  <p className="text-xs my-1">Restaurações estéticas</p>
                 </div>
               </div>
             </div>
@@ -224,10 +224,10 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Clínica Geral
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Tenha um sorriso saudável e radiante! Agende já sua consulta
                 para cuidar da sua saúde bucal. Oferecemos tratamentos
                 personalizados e equipe especializada.
@@ -235,15 +235,15 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Limpeza dental</p>
+                  <p className="text-xs my-1">Limpeza dental</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Restaurações</p>
+                  <p className="text-xs my-1">Restaurações</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Remoção de tártaro</p>
+                  <p className="text-xs my-1">Remoção de tártaro</p>
                 </div>
               </div>
             </div>
@@ -264,26 +264,26 @@ const Tratamentos = () => {
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Dentística
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Recupere seu sorriso com nossos serviços de restauração! Dentes
                 quebrados ou com cáries? Nós temos a solução perfeita para você!
               </p>
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Restaurações complexas</p>
+                  <p className="text-xs my-1">Restaurações complexas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Restaurações estéticas</p>
+                  <p className="text-xs my-1">Restaurações estéticas</p>
                 </div>
 
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Onlays e inlays</p>
+                  <p className="text-xs my-1">Onlays e inlays</p>
                 </div>
               </div>
             </div>
@@ -300,14 +300,14 @@ const Tratamentos = () => {
             <img
               src={bucomaxilo}
               alt="Bucomaxilofacial"
-              className="object-cover w-full rounded-lg hover:translate-y-2 duration-500"
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Bucomaxilofacial
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Recupere sua autoestima e qualidade de vida! Oferecemos
                 tratamentos de bucomaxilofacial, como correção de mandíbula e
                 fraturas faciais, com equipe especializada e equipamentos de
@@ -316,40 +316,40 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Extração de dentes inclusos ou impactados
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Correção de deformidades faciais
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Tratamento de lesões e doenças na boca, maxilares e face
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Cirurgias ortognáticas para correção de problemas na
                     mandíbula e maxila
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Tratamento de fraturas faciais</p>
+                  <p className="text-xs my-1">Tratamento de fraturas faciais</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Biópsias e remoção de tumores</p>
+                  <p className="text-xs my-1">Biópsias e remoção de tumores</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Tratamento de distúrbios da articulação temporomandibular
                     (ATM)
                   </p>
@@ -369,14 +369,14 @@ const Tratamentos = () => {
             <img
               src={laserterapia}
               alt="Laserterapia"
-              className="object-cover w-full rounded-lg hover:translate-y-2 duration-500"
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Laserterapia
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Alivie a dor e o desconforto da DTM com a laserterapia!
                 Tratamento não invasivo e indolor para relaxar a musculatura e
                 reduzir inflamações. Agende sua sessão agora mesmo.
@@ -384,52 +384,52 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Redução de dores e inflamações</p>
+                  <p className="text-xs my-1">Redução de dores e inflamações</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Relaxamento da musculatura</p>
+                  <p className="text-xs my-1">Relaxamento da musculatura</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Regeneração tecidual</p>
+                  <p className="text-xs my-1">Regeneração tecidual</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Fotobiomodulação</p>
+                  <p className="text-xs my-1">Fotobiomodulação</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Previne envelhecimento precoce</p>
+                  <p className="text-xs my-1">Previne envelhecimento precoce</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Aumento de imunidade</p>
+                  <p className="text-xs my-1">Aumento de imunidade</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Vasodilatação</p>
+                  <p className="text-xs my-1">Vasodilatação</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Alívio do estresse</p>
+                  <p className="text-xs my-1">Alívio do estresse</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Combate aos radicais livres</p>
+                  <p className="text-xs my-1">Combate aos radicais livres</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Remove toxínas</p>
+                  <p className="text-xs my-1">Remove toxínas</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Promove hemostasia</p>
+                  <p className="text-xs my-1">Promove hemostasia</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
                 <FaCheck />
-                <p className="text-sm my-1">Melhora na dor articular</p>
+                <p className="text-xs my-1">Melhora na dor articular</p>
               </div>
             </div>
             <div className="px-5 pb-5">
@@ -445,14 +445,14 @@ const Tratamentos = () => {
             <img
               src={odonto}
               alt="Odontopediatria"
-              className="object-cover w-full rounded-lg hover:translate-y-2 duration-500"
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
             />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 Odontopediatria
               </h2>
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-xs">
                 Garanta um sorriso saudável para o seu filho! Oferecemos
                 serviços de odontopediatria com profissionais capacitados e
                 atendimento personalizado. Marque já a consulta
@@ -460,51 +460,53 @@ const Tratamentos = () => {
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Aplicação de flúor</p>
+                  <p className="text-xs my-1">Aplicação de flúor</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Tratamento de cárie dentária</p>
+                  <p className="text-xs my-1">Tratamento de cárie dentária</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Aplicação de selante dentário</p>
+                  <p className="text-xs my-1">Aplicação de selante dentário</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Acompanhamento do desenvolvimento da dentição
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Orientação e prevenção em relação à higiene bucal
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Extração de dentes de leite</p>
+                  <p className="text-xs my-1">
+                    Extração de dentes de leite (Decidual)
+                  </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Acompanhamento ortodôntico precoce
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Tratamento de traumatismos dentários
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Restaurações dentárias</p>
+                  <p className="text-xs my-1">Restaurações dentárias</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
+                  <p className="text-xs my-1">
                     Remoção de tártaro e limpeza dentária.
                   </p>
                 </div>
@@ -520,64 +522,65 @@ const Tratamentos = () => {
 
         <div className="w-full">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
-          <img
-                src={harmonizacao}
-                alt='HOF'
-                className='object-cover w-full rounded-lg hover:translate-y-2 duration-500' />
+            <img
+              src={harmonizacao}
+              alt="HOF"
+              className="lg:h-72 md:h-48 w-full object-cover object-center"
+            />
 
             <div className="p-5">
-              <h2 className="text-xl font-medium text-slate-900 mb-1">
+              <h2 className="text-base font-medium text-slate-900 mb-1">
                 HOF - Harmonização Orofacial
               </h2>
-              <p className="leading-relaxed">
-                Realce a beleza do seu sorriso com a Harmonização Orofacial! 
-                Oferecemos procedimentos estéticos faciais personalizados, com resultados naturais e seguros. 
-                Agende sua consulta e sinta-se ainda mais bonito!
+              <p className="leading-relaxed text-xs">
+                Realce a beleza do seu sorriso com a Harmonização Orofacial!
+                Oferecemos procedimentos estéticos faciais personalizados, com
+                resultados naturais e seguros. Agende sua consulta e sinta-se
+                ainda mais bonito!
               </p>
               <div className="py-2">
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
-                    Preenchimento labial
+                  <p className="text-xs my-1">Preenchimento labial</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-xs my-1">Toxina botulínica (Botox)</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaCheck />
+                  <p className="text-xs my-1">
+                    Preenchimento facial com ácido hialurônico
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Toxina botulínica (Botox)</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <FaCheck />
-                  <p className="text-sm my-1">Preenchimento facial com ácido hialurônico</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <FaCheck />
-                  <p className="text-sm my-1">
-                    Rinomodelação (procedimento estético para correção do formato do nariz)
+                  <p className="text-xs my-1">
+                    Rinomodelação (procedimento estético para correção do
+                    formato do nariz)
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
-                  Bichectomia (procedimento para remoção da gordura das bochechas)
+                  <p className="text-xs my-1">
+                    Bichectomia (procedimento para remoção da gordura das
+                    bochechas)
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">Lifting facial não cirúrgico</p>
+                  <p className="text-xs my-1">Lifting facial não cirúrgico</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
-                  Fios de sustentação facial (thread lift)
+                  <p className="text-xs my-1">
+                    Fios de sustentação facial (thread lift)
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaCheck />
-                  <p className="text-sm my-1">
-                  Preenchimento de olheiras
-                  </p>
+                  <p className="text-xs my-1">Preenchimento de olheiras</p>
                 </div>
-                
               </div>
             </div>
             <div className="px-5 pb-5">
@@ -587,16 +590,6 @@ const Tratamentos = () => {
             </div>
           </div>
         </div>
-
-        {/* 
-            
-            
-           
-            
-           <div className='flex flex-col items-center justify-center'>
-                
-                <h2 className='text-center my-3 text-xl text-[#AA8068]'>Harmonização Orofacial</h2>
-            </div> */}
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react'
 import Brand from '../components/Brand'
 import Hero from '../components/Hero'
 import Main from '../components/Main'
+import Perfil from '../components/Perfil'
 import Tratamentos from '../components/Tratamentos'
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
     <div>
         <Hero />
         <Tratamentos />
+        <Perfil />
     </div>
   )
 }
