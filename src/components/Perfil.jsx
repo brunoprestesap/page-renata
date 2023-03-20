@@ -12,7 +12,7 @@ const Perfil = () => {
             />
         </div>
         <div className='my-5 md:w-2/6'>
-            <h2 className='text-2xl text-centerS'>Prazer, Drª. <span className='font-bold text-rose-800'>Renata Pamplona</span></h2>
+            <h2 className='text-2xl text-center mb-8'>Prazer, Drª. <span className='font-bold text-rose-800'>Renata Pamplona</span></h2>
             <p className='text-sm leading-6 text-justify'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

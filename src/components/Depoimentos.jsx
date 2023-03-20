@@ -67,7 +67,7 @@ const Depoimentos = () => {
   }
 
   return (
-    <div className="p-5">
+    <div className="p-5 bg-[#F3F3F3]">
       <div>
         <h2 className="font-bold text-center text-3xl text-pink-800">
           O que as pessoas dizem sobre nós
