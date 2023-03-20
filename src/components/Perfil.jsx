@@ -4,7 +4,7 @@ import perfil from '../assets/perfil_.jpeg'
 const Perfil = () => {
   return (
     <div className='px-5 py-10 md:w-full flex flex-col md:flex-row justify-center items-center'>
-        <div className='mx-5'>
+        <div className='md:mx-12'>
             <img
             className='object-cover w-72 h-72 rounded-full'
             src={perfil}
