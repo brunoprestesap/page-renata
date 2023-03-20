@@ -28,7 +28,7 @@ const Tratamentos = () => {
         </h2>
       </div>
 
-      <div className="md:w-4/6 p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="md:w-5/6 p-5 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-5">
         <div className="w-full">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
             <img

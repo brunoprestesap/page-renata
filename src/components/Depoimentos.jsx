@@ -67,15 +67,15 @@ const Depoimentos = () => {
   }
 
   return (
-    <div className="p-5 bg-[#F3F3F3]">
+    <div className="p-5 md:h-[500px] flex flex-col justify-around">
       <div>
         <h2 className="font-bold text-center text-3xl text-pink-800">
           O que as pessoas dizem sobre nós
         </h2>
       </div>
 
-      <div className="w-full m-auto py-4 relative flex justify-center items-center">
-        <div className="w-5/6 h-full rounded-2xl bg-center bg-cover duration-500">
+      <div className="w-full m-auto relative flex justify-center items-center">
+        <div className="w-5/6 rounded-2xl bg-center bg-cover duration-500">
           <CardDepoimentos
             depText={testimonials[currentIndex].text}
             depName={testimonials[currentIndex].name}
@@ -92,7 +92,7 @@ const Depoimentos = () => {
         </div>
       </div>
 
-      <div className="flex top-4 justify-center py-2">
+      <div className="flex justify-center">
         {testimonials.map((slide, slideIndex) => (
           <div
             key={slide.id}
