@@ -19,7 +19,7 @@ const Contatos = () => {
         <div className="flex flex-col w-full">
           <div className="w-full flex justify-center">
             <a
-              href="https://www.google.com/maps/dir//Psiquiatra+Macap%C3%A1+-+Dra+Camila+Neiva+R.+Manoel+Eud%C3%B3xio+Pereira,+826+-+Centro+Macap%C3%A1+-+AP+68900-021/@0.0426545,-51.0660276,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8d61e10bcf1b86ed:0x6f027f4a0e7e4563!2m2!1d-51.0660276!2d0.0426545"
+              href="https://www.google.com/maps/dir//Innovare+Odontologia+Av.+Ata%C3%ADde+Teive,+1081-B+-+2%C2%BA+andar,+sala+3+-+Trem+Macap%C3%A1+-+AP+68900-095/@0.0304437,-51.0618581,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x8d61e1e58c595b05:0x26f88d2468deb973"
               target="_blank"
               rel="noreferrer"
             >
@@ -50,7 +50,7 @@ const Contatos = () => {
 
           <div className="w-full p-5 bg-[#CDBCA8] shadow-2xl shadow-stone-500/50 rounded-xl">
             <form
-              action="https://getform.io/f/73cd82b3-0511-4dc0-845b-0c8a5b07ca19"
+              action="https://getform.io/f/5bd42142-cc40-4070-be3d-12ec1578421e"
               method="POST"
               encType="multipart/form-data"
             >

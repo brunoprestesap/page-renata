@@ -1,14 +1,14 @@
 import React from "react";
-import implante from "../assets/implante.jpg";
-import ortodontia from "../assets/ortodontia.jpeg";
-import protese from "../assets/protese.jpg";
-import faceta from "../assets/faceta.jpg";
+import implante from "../assets/implante.webp";
+import ortodontia from "../assets/ortodontia.webp";
+import protese from "../assets/protese.webp";
+import faceta from "../assets/faceta.webp";
 import clinica from "../assets/clinica.webp";
 import restauracao from "../assets/restauracao.webp";
 import bucomaxilo from "../assets/bucomaxilofacial.jpeg";
 import laserterapia from "../assets/laserterapia.png";
-import odonto from "../assets/odontopediatria.jpg";
-import harmonizacao from "../assets/harmonizacao.jpg";
+import odonto from "../assets/odontopediatria.webp";
+import harmonizacao from "../assets/harmonizacao.webp";
 
 import { FaCheck } from "react-icons/fa";
 
@@ -28,7 +28,7 @@ const Tratamentos = () => {
         </h2>
       </div>
 
-      <div className="md:w-5/6 p-5 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-5">
+      <div className="md:w-5/6 p-5 grid grid-cols-1 lg:grid-cols-4 2xl:grid-cols-5 gap-5">
         <div className="w-full">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#7D513A]/70 hover:text-white transition duration-300 ease-in shadow-lg shadow-gray-400">
             <img
@@ -72,9 +72,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
-              <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
-                <p className="text-white">Agende sua consulta</p>
-              </button>
+              <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
+                  <p className="text-white">Agende sua consulta</p>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -120,9 +126,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -165,9 +177,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -208,9 +226,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -248,9 +272,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -288,9 +318,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -357,9 +393,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -433,9 +475,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -455,7 +503,7 @@ const Tratamentos = () => {
               <p className="leading-relaxed text-xs">
                 Garanta um sorriso saudável para o seu filho! Oferecemos
                 serviços de odontopediatria com profissionais capacitados e
-                atendimento personalizado. Marque já a consulta
+                atendimento personalizado. Agende já a sua consulta
               </p>
               <div className="py-2">
                 <div className="flex items-center gap-2">
@@ -513,9 +561,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -584,9 +638,15 @@ const Tratamentos = () => {
               </div>
             </div>
             <div className="px-5 pb-5">
+            <a
+                href="https://wa.me/5596991551081"
+                target="_blank"
+                rel="noreferrer"
+              >
               <button className="border-2 border-white bg-sky-800 p-3 rounded-lg">
                 <p className="text-white">Agende sua consulta</p>
               </button>
+              </a>
             </div>
           </div>
         </div>

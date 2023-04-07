@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="w-full my-5">
             <div className="flex my-5">
               <h2 className="text-xl font-bold text-[#CDBCA8]">
-                Clínica Innovare
+                Innovare Odontologia
               </h2>
             </div>
             <div className="flex gap-3 items-center mb-3">
@@ -76,7 +76,7 @@ const Footer = () => {
             <div className="flex gap-3 items-center mb-3">
               <FaMailBulk size={30} color="CDBCA8" />
               <h2 className="text-base text-white">
-                clinicainnovare@gmail.com
+                odtinnovare@gmail.com
               </h2>
             </div>
           </div>

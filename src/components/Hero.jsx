@@ -1,31 +1,45 @@
-import React from 'react'
-import hero from '../assets/topo.jpg'
+import React from "react";
+import hero from "../assets/topo.webp";
+import CardExperiencia from "./CardExperiencia";
 
 const Hero = () => {
   return (
     <div id="hero">
       <img
-        id='inverter'
+        id="inverter"
         className="w-full h-screen object-cover"
         src={hero}
         alt="hero top"
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
-        <div className='absolute top-0 left-0 w-full flex lg:justify-start  pt-16 pl-5 lg:pl-20'>
-            <h1 className='text-5xl text-left font-bold'>DRA.<br /> RENATA<br /> PAMPLONA</h1>
+        <div className="invisible md:visible absolute top-0 right-0 max-w-[700px] w-52 lg:w-72 m-auto h-full">
+          <CardExperiencia />
         </div>
 
-        <div id="sobre" className="flex absolute bottom-3 md:bottom-12 left-5 md:left-16 max-w-[350px] md:max-w-prose">
+        <div className="absolute top-0 left-0 w-full flex lg:justify-start  pt-16 pl-5 lg:pl-20">
+          <h1 className="text-5xl md:text-6xl text-left font-bold text-[#7D513A]">
+            DRA. RENATA
+            <br /> PAMPLONA
+          </h1>
+        </div>
+
+        <div
+          id="sobre"
+          className="flex absolute bottom-3 md:bottom-12 left-5 md:left-16 max-w-[350px] md:max-w-prose"
+        >
           <div className="backdrop-opacity-10 rounded-2xl bg-[#EED3C6]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
-            <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl text-[#7D513A]">Transforme seu sorriso com Tratamentos Odontológicos personalizados.</h2>
+            <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl text-[#7D513A]">
+              Transforme seu sorriso com Tratamentos Odontológicos
+              personalizados.
+            </h2>
 
             <hr className="w-full lg:w-full border mt-3 border-white/50" />
 
             <div className="my-5">
-              
               <h2 className="text-lg md:text-xl text-[#7D513A]">
-                Cuide da sua saúde bucal e melhore sua qualidade de vida. Agende uma consulta hoje mesmo!
+                Cuide da sua saúde bucal e melhore sua qualidade de vida. Agende
+                uma consulta hoje mesmo!
               </h2>
             </div>
 
@@ -46,7 +60,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
